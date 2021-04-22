@@ -1,0 +1,167 @@
+
+html {
+
+    
+    height: 100%;
+    min-height: 100%;
+    
+}
+    
+body {
+    
+    min-height: 100%;
+    
+    margin-bottom: 60px;
+    display: block;
+    box-sizing: border-box;
+    display: block;
+    display: none;
+}
+
+footer{
+    z-index: -1;
+}
+
+.div-table-size{
+    max-height: 580px;
+}
+
+
+.sort-table-overflow{
+    overflow: hidden;
+}
+
+
+.max-sise{
+    height: 100%;
+    width: 100%;
+}
+
+
+.logo-text-style{
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
+
+.avatar-size{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Modal window*/
+
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.9;
+	z-index: 9999;
+}
+.popup {
+	position: absolute;
+	top: 0;
+	left: 0;
+    right: 0;
+    bottom: 0;
+	/*padding: 20px;*/
+	/*width: 360px;*/
+	/*margin-left: -200px;*/	
+	/*border-radius: 4px;*/ 
+	z-index: 99999;
+	opacity: 1;
+    margin: auto 0;
+    	
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.modal-sign-out-div{
+    height: 220px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*margin-top: 100px;
+    margin-bottom: 150px;*/
+    
+}
+.modal-details-request-div{
+    height: 710px;
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*margin-top: 100px;
+    margin-bottom: 150px;*/
+    
+}
+.modal-create-request-div{
+    height: 560px;
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*margin-top: 100px;
+    margin-bottom: 150px;*/
+    
+}
+.modal-close-request-div{
+    height: 560px;
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*margin-top: 100px;
+    margin-bottom: 150px;*/
+    
+}
+/*
+.mt-10{
+    margin-top: 4rem!important;
+}
+*/
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1180px;
+    }
+}
+@media (min-width: 1400px){
+    .container{
+        max-width: 1380px;
+    }
+}
+@media (min-width: 1600px){
+    .container{
+        max-width: 1500px;
+    }
+}
+
+@media (min-height: 1200px){
+    .div-table-size{
+        max-height: 1180px;
+    }
+}
